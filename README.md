@@ -1,6 +1,6 @@
 # 💫 **Exercício AJAX — Consumo de API do GitHub**
 
-> 📚 Um projeto simples, mas poderoso: usando **AJAX com Fetch e async/await** para buscar dados direto da API do GitHub. Criado por **Ianca Laurentino** 💻
+> 📚 Um projeto simples, mas poderoso: usando **AJAX com Fetch e async/await** para buscar dados direto da API do GitHub. 💻
 
 ---
 
