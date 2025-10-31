@@ -33,20 +33,6 @@ O foco é **entender o fluxo da requisição AJAX**:
 
 ---
 
-## 📂 Estrutura do Projeto
-
-```
-📁 exercicio_ajax
- ┣ 📄 index.html
- ┣ 📁 css
- ┃ ┗ 🎨 style.css
- ┣ 📁 js
- ┃ ┗ ⚙️ main.js
- ┗ 📜 README.md
-```
-
----
-
 ## 🚀 Como Executar
 
 1️⃣ Clone o repositório:
@@ -60,16 +46,3 @@ cd exercicio_ajax
 
 3️⃣ A mágica acontece! ✨ A página irá buscar os dados direto da API do GitHub e exibir automaticamente.
 
----
-
-## 🔍 Exemplo de Código (main.js)
-
-```js
-async function carregarPerfil(username = 'iancaTino') {
-  try {
-    const resposta = await fetch(`https://api.github.com/users/${username}`);
-    if (!resposta.ok) throw new Error('Erro ao buscar dados do GitHub');
-
-    const dados = await resposta.json();
-    docu
-```
